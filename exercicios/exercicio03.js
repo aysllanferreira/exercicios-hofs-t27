@@ -26,13 +26,13 @@ const pessoas = [
   },
 ];
 
-const todasPessoasSaoMaioresQue20 = () => {
-  // Seu codigo aqui...
-};
+const todasPessoasSaoMaioresQue20 = () => pessoas.every(({ idade }) => idade >= 1);
 
-const algumaPessoaTemMaisDe40 = () => {
-  // Seu codigo aqui...
-};
+console.log(todasPessoasSaoMaioresQue20());
+
+const algumaPessoaTemMaisDe40 = () => pessoas.some(({ idade }) => idade <= 1);
+
+console.log(algumaPessoaTemMaisDe40());
 
 module.exports = {
   todasPessoasSaoMaioresQue20,

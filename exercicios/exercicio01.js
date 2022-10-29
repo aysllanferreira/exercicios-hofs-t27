@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 const pessoas = [
   {
-    nome: 'João',
+    nome: 'Joao',
     sobrenome: 'Silva',
     sexo: 'M',
     idade: 48,
@@ -26,8 +26,11 @@ const pessoas = [
   },
 ];
 
-const emails = () => {
-  // Seu codigo aqui...
-};
+// joao.silva@aulao.com
+
+const emails = () => pessoas.map(({ nome, sobrenome }) => `${nome.toLowerCase()}.${
+  sobrenome.toLowerCase()}@aulao.com`);
+
+console.log(emails());
 
 module.exports = emails;

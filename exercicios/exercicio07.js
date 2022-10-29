@@ -24,8 +24,11 @@ const objeto = {
   ],
 };
 
-const primeiroAnimalEncontrado = () => {
-  // Seu codigo aqui...
-};
+const { doguinhos } = objeto;
+
+const primeiroAnimalEncontrado = () => doguinhos.filter(({ idade }) => idade > 5)
+  .find((elemento) => elemento).raca;
+
+console.log(primeiroAnimalEncontrado());
 
 module.exports = primeiroAnimalEncontrado;

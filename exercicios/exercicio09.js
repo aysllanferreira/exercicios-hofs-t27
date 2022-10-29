@@ -14,7 +14,7 @@ const objeto = {
     {
       id: 3,
       nome: 'Antonio',
-      sobrenome: 'Ferreira',
+      sobrenome: 'Gomez',
     },
     {
       id: 4,
@@ -24,8 +24,11 @@ const objeto = {
   ],
 };
 
-const encontrarPessoa = (nome) => {
-  // Seu codigo aqui...
-};
+const { funcionarios } = objeto;
+
+const encontrarPessoa = (nomes) => funcionarios
+  .filter(({ nome, sobrenome }) => nome === nomes || sobrenome === nomes).map(({ nome, sobrenome }) => `Nome: ${nome} ${sobrenome}`);
+
+console.log(encontrarPessoa('Souza'));
 
 module.exports = encontrarPessoa;
