@@ -26,13 +26,21 @@ const pessoas = [
   },
 ];
 
-const pessoaMaisVelha = () => {
-  // Seu codigo aqui...
-};
+const pessoaMaisVelha = () => pessoas
+  .reduce((acumulador, valorAtual) => (acumulador.idade > valorAtual.idade ? acumulador : valorAtual));
+
+// console.log(pessoaMaisVelha());
 
 const pessoaMaisNova = () => {
   // Seu codigo aqui...
+  const pessoasx = pessoas.reduce((acumulador, valorAtual) => {
+    if (acumulador.idade < valorAtual.idade) return acumulador;
+    return valorAtual;
+  });
+  return pessoasx;
 };
+
+console.log(pessoaMaisNova());
 
 module.exports = {
   pessoaMaisVelha,

@@ -24,8 +24,13 @@ const objeto = {
   ],
 };
 
-const encontrarPessoa = (parametros) => {
-  // Seu codigo aqui...
+const { funcionarios } = objeto;
+
+const encontrarPessoa = (...parametros) => {
+  const pessoas = funcionarios
+    .filter(({ id, nome, sobrenome }) => parametros.includes(id) || parametros
+      .includes(nome) || parametros.includes(sobrenome));
+  return pessoas.map(({ nome, sobrenome }) => `Nome: ${nome} ${sobrenome}`);
 };
 
 module.exports = encontrarPessoa;

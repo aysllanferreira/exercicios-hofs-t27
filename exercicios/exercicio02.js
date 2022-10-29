@@ -26,8 +26,8 @@ const pessoas = [
   },
 ];
 
-const mulheres = () => {
-  // Seu codigo aqui...
-};
+const mulheres = () => pessoas.filter(({ sexo }) => sexo === 'F');
+
+console.log(mulheres());
 
 module.exports = mulheres;
