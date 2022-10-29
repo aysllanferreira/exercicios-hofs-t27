@@ -24,9 +24,6 @@ const objeto = {
   ],
 };
 
-// Encontre a pessoa seja por ID ou por nome.
-// Deve ser possivel passar quantos parametros forem necessarios.
-
 const encontrarPessoa = (parametros) => {
   // Seu codigo aqui...
 };

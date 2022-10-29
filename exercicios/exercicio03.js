@@ -26,13 +26,9 @@ const pessoas = [
   },
 ];
 
-// Verifique se todas as pessoas sao mais velhas que 20 anos.
-
 const todasPessoasSaoMaioresQue20 = () => {
   // Seu codigo aqui...
 };
-
-// Verifique se alguma pessoa tem mais de 40 anos.
 
 const algumaPessoaTemMaisDe40 = () => {
   // Seu codigo aqui...

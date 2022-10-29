@@ -26,8 +26,6 @@ const pessoas = [
   },
 ];
 
-// Filtre somente as pessoas do sexo feminino.
-
 const mulheres = () => {
   // Seu codigo aqui...
 };

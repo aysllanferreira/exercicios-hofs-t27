@@ -24,11 +24,6 @@ const objeto = {
   ],
 };
 
-// Crie uma funcao passando por parametro um nome.
-// Esse parametro deve ser capaz de encontrar a pessoa seja por nome ou sobrenome.
-// Deve retornar o nome no seguinte formato:
-// Nome: João Silva.
-
 const encontrarPessoa = (nome) => {
   // Seu codigo aqui...
 };

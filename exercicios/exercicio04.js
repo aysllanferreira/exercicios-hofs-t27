@@ -26,13 +26,9 @@ const pessoas = [
   },
 ];
 
-// Encontre a pessoa mais velha.
-
 const pessoaMaisVelha = () => {
   // Seu codigo aqui...
 };
-
-// Encontre a pessoa mais nova.
 
 const pessoaMaisNova = () => {
   // Seu codigo aqui...

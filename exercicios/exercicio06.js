@@ -24,10 +24,6 @@ const objeto = {
   ],
 };
 
-// Retorne um array com os animais com a idade em ordem decrescente.
-// Retorne no seguinte formato:
-// [Nome: Rex, Idade: 2]
-
 const nomesDoguinhos = () => {
   // Seu codigo aqui...
 };

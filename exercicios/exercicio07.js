@@ -24,8 +24,6 @@ const objeto = {
   ],
 };
 
-// Encontre os animais que tem a idade maior que 5 anos e retorne a raça do primeiro encontrado
-
 const primeiroAnimalEncontrado = () => {
   // Seu codigo aqui...
 };

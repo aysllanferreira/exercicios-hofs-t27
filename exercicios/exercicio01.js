@@ -26,9 +26,6 @@ const pessoas = [
   },
 ];
 
-// Retorne um array transformando os items em emails.
-// Transforme no seguinte formato: nome.sobrenome@aulao.com
-
 const emails = () => {
   // Seu codigo aqui...
 };
